@@ -15,3 +15,4 @@ resources:
   - stakater-charts.yaml
   - oauth2-proxy.yaml
   - kpg-charts.yaml
+  - k8s-at-home.yaml
