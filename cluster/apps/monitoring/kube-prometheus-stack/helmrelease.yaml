@@ -180,7 +180,6 @@ spec:
         - 10.0.0.32
         - 10.0.0.33
 
-
     kubeEtcd:
       enabled: true
       endpoints:
