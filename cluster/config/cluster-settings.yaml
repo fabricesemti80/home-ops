@@ -9,3 +9,32 @@ data:
   METALLB_LB_RANGE: 10.0.0.200-10.0.0.250
   METALLB_K8S_GATEWAY_ADDR: 10.0.0.240
   METALLB_INGRESS_ADDR: 10.0.0.241
+
+# Cluster ranges
+  K8S_CLUSTER_CIDR: "10.42.0.0/16"
+  K8S_SERVICE_CIDR: "10.43.0.0/16"
+
+  # LAN settings
+  LAN_NETWORK_CIDR: "10.0.0/16"
+  LAN_GATEWAY_ADDRESS: 10.0.0.254
+
+  # # Loadbalancer IP's
+  # SVC_PLEX_ADDR: 192.168.1.240
+  # SVC_EMQX_ADDR: 192.168.1.241
+  # SVC_JELLYFIN_ADDR: 192.168.1.242
+  # SVC_HOME_ASSISTANT_ADDR: 192.168.1.243
+
+  # Storage [NAS] settings
+  NAS_SERVER: 10.0.0.2
+  NAS_PATH_MEDIA: /PersistentVolumeClaims/Media
+  NAS_PATH_MINIO: /PersistentVolumeClaims/MiniIO
+
+  # VPN settings
+  # VPN_GATEWAY_VPN_PORT: "51820"
+  VPN_FORWARDED_PORT_1: "18289"
+  # VPN_PORT_QB: "18289"
+  VPN_PORT: "51820"
+  VPN_COUNTRY: "FR"
+
+  # Mail server details
+  CLUSTER_MAIL_SERVER: smtp.gmail.com
